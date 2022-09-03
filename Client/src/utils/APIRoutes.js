@@ -1,4 +1,4 @@
-export const host = "https://git.heroku.com/chat-box090.git";
+export const host = "https://chatty022.herokuapp.com";
 
 export const registerRoutes = `${host}/api/auth/register`;
 
