@@ -1,4 +1,4 @@
-export const host = "http://localhost:5000";
+export const host = "https://chat-box090.herokuapp.com/";
 
 export const registerRoutes = `${host}/api/auth/register`;
 
