@@ -10,9 +10,7 @@ require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
-app.get('/',(req, res)=>{
-  res.json("server start")
-})
+
 app.use("/api/auth", userRoutes);
 app.use("/api/message", messagesRoutes);
 
@@ -34,7 +32,7 @@ const server = app.listen(process.env.PORT, () => {
 
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: `${process.env.PORT}`,
     credentials: true,
   },
 });
