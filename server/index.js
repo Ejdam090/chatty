@@ -9,7 +9,8 @@ const app = express();
 require("dotenv").config();
 
 app.use(cors({
-  origin: 'https://632388305ddea7005eb615d4--glistening-figolla-efc99f.netlify.app/'
+  origin: '*',
+  methods: ['GET','POST','DELETE','UPDATE','PUT','PATCH']
 }));
 
 app.use(express.json());
