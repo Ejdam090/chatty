@@ -16,4 +16,4 @@ In this app you can text with others. You can send and recieve messages. Choose 
 
 <h3>Go Live</h3>
 
-- [Live](https://632388305ddea7005eb615d4--glistening-figolla-efc99f.netlify.app/)
+- [Live](https://chatty090.netlify.app/)
